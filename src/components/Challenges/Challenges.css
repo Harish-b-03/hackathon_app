@@ -1,0 +1,24 @@
+.ChallengesContainer{
+    background-color: #002A3B;
+    width: 100%;
+    padding-top: 72px;
+}
+
+.ChallengesHeading{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.ChallengesSearchInput{
+    height: 50px;
+    width: 829px;
+    left: 238px;
+    top: 1907px;
+    border-radius: 12px;
+    padding-left: 40px;
+    font-size: 16px;
+}

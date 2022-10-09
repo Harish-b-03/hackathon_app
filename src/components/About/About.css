@@ -1,0 +1,67 @@
+.AboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.AboutHeading span{
+    color: #44924C;
+}
+
+.LevelOneSections{
+    display: flex;
+}
+
+.LevelTwoSections{
+    display: flex;
+}
+
+.LevelOneSections img, .LevelTwoSections img{
+    aspect-ratio: 1;
+}
+
+.ProveSkills, .LearnFromCommunity, .ChallengeYourself, .EarnRecognition {
+    background-color: #F8F9FD;
+    height: 276px;
+    width: 542px;
+    left: 160px;
+    top: 1015px;
+    border-radius: 20px;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    padding: 5%;
+} 
+.ProveSkills, .ChallengeYourself{
+    margin-right: 35px;
+}
+
+.ProveSkills, .LearnFromCommunity{
+    margin-bottom: 39px;
+}
+.ProveSkills span, .LearnFromCommunity span, .ChallengeYourself span, .EarnRecognition span{
+    width: fit-content;
+    height: 52px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.ProveSkills p, .LearnFromCommunity p, .ChallengeYourself p, .EarnRecognition p{
+    width: 471px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #64607D;
+    margin-top: 5px;
+}
+
+.ChallengeYourself, .EarnRecognition{
+    margin-bottom: 125px;
+}
+
+
